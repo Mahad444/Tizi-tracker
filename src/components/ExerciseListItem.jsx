@@ -1,12 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-
-
-
-
-
-
-
 export default function ExerciseListItem({item}) {
     return (
       <View style={styles.exerciseContainer}>
@@ -18,19 +11,24 @@ export default function ExerciseListItem({item}) {
       </View>
     );
   }
-  
-
-
-
-
-
-
-  const styles = StyleSheet.create({
+    const styles = StyleSheet.create({
   exerciseContainer: {
     backgroundColor:'#fff',
     padding:10,
     borderRadius:10,
     gap:5,
+    marginHorizontal:2,
+// shadow
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.4,
+    elevation: 2,
+
+
   },
     exerciseName: {
       fontSize: 20,
