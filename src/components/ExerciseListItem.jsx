@@ -32,7 +32,7 @@ export default function ExerciseListItem({item}) {
   },
     exerciseName: {
       fontSize: 20,
-      fontWeight: 'bold',
+      fontWeight: '700',
     },
     exerciseSubtitles: {
       color: 'grey',
