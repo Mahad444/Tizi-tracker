@@ -13,7 +13,7 @@ export default function ExerciseListItem({item}) {
   }
     const styles = StyleSheet.create({
   exerciseContainer: {
-    backgroundColor:'#fff',
+    backgroundColor:'white',
     padding:10,
     borderRadius:10,
     gap:5,
