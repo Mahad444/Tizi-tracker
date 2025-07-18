@@ -197,7 +197,10 @@
   },
   {
     "name":"Bicep Curl",
-    "type":"strength & stamina"
+    "type":"strength & stamina",
+    "difficulty":"beginner",
+    "muscle":"biceps",
+    "equipment":"dumbbell"
   }
 ]
 
